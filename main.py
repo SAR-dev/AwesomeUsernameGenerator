@@ -1,0 +1,2 @@
+from awesome_username_generator.generator import generate_username
+print(generate_username(1))
