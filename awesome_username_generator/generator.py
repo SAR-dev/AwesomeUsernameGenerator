@@ -14,9 +14,9 @@ def generate_username(num_results=1):
     for i in range(num_results):
 
         # construct username    
-        word1 = random.choice(adjectives).title()
-        word2 = random.choice(nouns).title()
-        username = '{}{}{}'.format(word1, word2, random.randint(1, 99))
+        word1 = random.choice(adjectives)
+        word2 = random.choice(nouns)
+        username = '{}-{}'.format(word1, word2)
 
         # success
         return username
